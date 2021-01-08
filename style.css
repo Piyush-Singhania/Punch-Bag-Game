@@ -1,0 +1,61 @@
+html {
+  background: #34495e;
+}
+#vue-app {
+  height: 540px;
+  width: 350px;
+  border: 8px solid #01a3a4;
+  border-radius: 10px;
+  background: white;
+  margin: 0px auto;
+}
+#game-title {
+  text-align: center;
+}
+#bag {
+  height: 350px;
+  width: 180px;
+  margin: 0px auto;
+  background: url(img/bag.png) center no-repeat;
+  background-size: 70%;
+}
+#bag.burst {
+  background: url(img/bag-burst.png) center no-repeat;
+  background-size: 70%;
+}
+#bag-health {
+  height: 20px;
+  width: 200px;
+  margin: 5px auto;
+  border: 2px solid black;
+}
+#bag-health div {
+  background-color: crimson;
+  height: 20px;
+  width: 100%;
+}
+#display-msg {
+  height: 20px;
+  margin: 5px auto;
+  padding: 5px auto;
+  color: green;
+}
+#display-msg h3 {
+  margin: 0px auto;
+  text-align: center;
+}
+.msg {
+  display: none;
+}
+#controls {
+  margin: 2px auto;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#controls button {
+  cursor: pointer;
+  height: 30px;
+  margin: 0px auto;
+}
