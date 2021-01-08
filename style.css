@@ -8,6 +8,7 @@ html {
   border-radius: 10px;
   background: white;
   margin: 0px auto;
+  touch-action: manipulation;
 }
 #game-title {
   text-align: center;
